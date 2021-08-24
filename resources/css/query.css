@@ -18,6 +18,9 @@
     .progress-bar span {
         font-size: 10px;
     }
+    .box {
+        width: 90%;
+    }
 }
 
 
@@ -43,6 +46,9 @@
         font-size: 10px;
         right: 40%;
         bottom: 7px;
+    }
+    .box {
+        width: 90%;
     }
 }
 
@@ -101,6 +107,9 @@
     .sticky .mobile-nav-icon i {
         color: #555;
     }
+    .box {
+        width: 100%;
+    }
     .item img {
         left: 5%;
         bottom: 50%;
@@ -112,6 +121,9 @@
     }
     .progress-bar span {
         font-size: 10px;
+    }
+    .cv-wrap {
+        text-align: center;
     }
 }
 
@@ -126,14 +138,24 @@
         width: 40%;
     }
     h1 {
-        font-size: 170%;
+        font-size: 150%;
     }
     h2 {
-        font-size: 140%;
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 100%;
+    }
+    h4 {
+        font-size: 100%;
+    }
+    .box {
+        width: 100%;
     }
     .item img {
+        width: 15px;
         left: 6%;
-        bottom: 50%;
+        bottom: 60%;
     }
     .item label {
         font-size: 60%;
@@ -144,5 +166,8 @@
         font-size: 10px;
         right: 40%;
         bottom: 7px;
+    }
+    .cv-wrap {
+        text-align: center;
     }
 }

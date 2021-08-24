@@ -330,9 +330,10 @@ progress {
     padding: 0 20px;
 }
 
-.edu-box:last-of-type {
+
+/* .edu-box:last-of-type {
     margin-bottom: 20px;
-}
+} */
 
 .edu-box div {
     text-align: justify;
