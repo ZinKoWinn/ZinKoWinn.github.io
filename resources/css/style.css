@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    /* font-family: 'Lato', 'Arial', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #555;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* Reusable Section */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s color 0, 2s border 0.2s;
+    -o-transition: background-color 0.2s color 0, 2s border 0.2s;
+    transition: background-color 0.2s color 0, 2s border 0.2s
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #333;
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    border: 1px solid #444;
+    background-color: #444;
+}
+
+
+/* Header */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.header-text-box img {
+    width: 20%;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 40px 0;
+}
+
+
+/* Heading */
+
+h1,
+h2,
+h3,
+h4 {
+    /* font-weight: 300; */
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 240%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 400;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #e67e22;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 130%;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 130%;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+/* Navigation Section */
+
+.navbar {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    padding: 8px 0px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* About Me Section */
+
+.section-about-me {
+    /* background-color: #303030; */
+    background-color: #7E76F910;
+}
+
+.box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item-box-p,
+.expert-p {
+    text-align: justify;
+    font-size: 90%;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.item-box-p:last-of-type {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 90%;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.item-box:first-child {
+    padding-left: 3%;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.item-box:last-child {
+    padding-right: 3%;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.item img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 47%;
+}
+
+.item label {
+    font-size: 70%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5%;
+    bottom: 47%;
+}
+
+progress {
+    background-color: #e9e9e9;
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 9px;
+}
+
+.progress-bar {
+    position: relative;
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 50%;
+    bottom: 5px;
+    width: 31px;
+    height: 20px;
+    /* background: #303030; */
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.progress-bar progress::-webkit-progress-value {
+    background: #333;
+    background: -moz-linear-gradient(top, #333 0%, #333 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #333));
+    background: -webkit-linear-gradient(top, #333 0%, #333 100%);
+    background: -o-linear-gradient(top, #333 0%, #333 100%);
+    background: -ms-linear-gradient(top, #333 0%, #333 100%);
+    background: linear-gradient(to bottom, #333 0%, #333 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#333', GradientType=0);
+    border-radius: 9px;
+}
+
+.progress-bar progress::-moz-progress-bar {
+    background: #333;
+    background: -moz-linear-gradient(top, #333 0%, #333 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #333));
+    background: -webkit-linear-gradient(top, #333 0%, #333 100%);
+    background: -o-linear-gradient(top, #333 0%, #333 100%);
+    background: -ms-linear-gradient(top, #333 0%, #333 100%);
+    background: linear-gradient(to bottom, #333 0%, #333 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#333', GradientType=0);
+    border-radius: 9px;
+}
+
+
+/* Education Section */
+
+.section-education {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("img/education.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.edu-box:first-child {
+    padding-left: 3%;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.edu-box:last-child {
+    padding-right: 3%;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.edu-box:last-of-type {
+    margin-bottom: 20px;
+}
+
+.edu-box div {
+    text-align: justify;
+    font-size: 90%;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.edu-box {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.edu-box img {
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+.edu-box i {
+    font-size: 300%;
+    padding: 20px;
+}
