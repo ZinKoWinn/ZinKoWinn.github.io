@@ -103,6 +103,7 @@
         border-bottom: 2px solid #e67e22;
     }
     .sticky .navbar {
+        padding: 20px 0;
         margin-top: 10px;
     }
     .sticky .navbar li a:link,
