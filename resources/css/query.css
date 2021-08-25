@@ -91,11 +91,16 @@
     .navbar li {
         display: block;
     }
+    .navbar li a:link,
     .navbar li a:visited {
         display: block;
         border: 0;
-        padding: 10px 0;
+        padding: 7px 0;
         font-size: 100%;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+        border-bottom: 2px solid #e67e22;
     }
     .sticky .navbar {
         margin-top: 10px;
