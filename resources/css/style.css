@@ -156,7 +156,7 @@ h4 {
 .navbar {
     float: right;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .navbar li {
@@ -187,6 +187,51 @@ h4 {
     margin-top: 40px;
     cursor: pointer;
     display: none;
+}
+
+.mobile-nav-icon i {
+    color: #fff;
+    font-size: 200%;
+}
+
+
+/* Sticky Navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 2px #555;
+    z-index: 9999;
+}
+
+.sticky .navbar {
+    margin-top: 15px;
+}
+
+.sticky .navbar li a:link,
+.sticky .navbar li a:visited {
+    color: #555;
+    padding: 15px 0;
+}
+
+.sticky .navbar li a:hover,
+.sticky .navbar li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.sticky .logo {
+    display: none;
+    width: 20px;
+    height: auto;
+}
+
+.sticky .logo-black {
+    display: block;
+    width: 20px;
+    height: auto;
 }
 
 

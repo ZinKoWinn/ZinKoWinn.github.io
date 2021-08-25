@@ -85,6 +85,9 @@
         margin-top: 35px;
         margin-left: 25px;
     }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
     .navbar li {
         display: block;
     }
@@ -103,9 +106,11 @@
     }
     .sticky .mobile-nav-icon {
         margin-top: 10px;
+        padding: 10px 0;
     }
     .sticky .mobile-nav-icon i {
-        color: #555;
+        color: #333;
+        font-size: 150%;
     }
     .box {
         width: 100%;

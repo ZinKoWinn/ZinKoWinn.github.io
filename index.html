@@ -25,19 +25,19 @@
 
 <body>
     <header>
-        <div class="row">
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Aboout Me</a></li>
+
+        <nav class="sticky">
+            <div class="row">
+                <ul class="navbar js-navbar">
+                    <li><a href="#about">Aboout Me</a></li>
                     <li><a href="#">Portfolio</a></li>
-                    <li><a href="##">Education</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#">My Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <a class="mobile-nav-icon js-mobile-icon"><i class="fas fa-bars"></i></a>
-
-            </nav>
-        </div>
+                <a class="mobile-nav-icon .js-nav-icon"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
 
         <div class="header-text-box">
             <img src="resources/img/zinko.jpg" alt="">
@@ -47,7 +47,7 @@
 
     </header>
 
-    <section class="section-about-me">
+    <section id="about" class="section-about-me js-section-about-me">
         <div class="row">
             <h2>About Me</h2>
         </div>
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="section-education">
+    <section id="education" class="section-education">
         <div class="row">
             <div class="row">
                 <h2>Education</h2>
@@ -171,14 +171,19 @@
                         <div>
                             <h3>Yay Nan Chaung University</h3>
                             <span>Present -</span>
-                            <p>I started university life at Yan Nan Chaung University.</p>
+                            <p>I started university life at Yan Nan Chaung University. I study at department of geography.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
+    </section>
 
+    <section class="section-prjs">
+        <div class="row">
+            <h2>My Projects</h2>
+        </div>
     </section>
 </body>
 <script src=" https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js " integrity=" sha512-BWbLJlfp8hzXlxT6K5KLdxPVAj+4Zn2e4FVq5P7NSFH/mkAJ18UiZRQUD4anR3jyp0/WYkeZ0Zmq5EWWrDxneQ==" crossorigin=" anonymous " referrerpolicy=" no-referrer"></script>
