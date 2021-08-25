@@ -14,10 +14,8 @@ $(document).ready(function() {
 
     // Mobile Navigation
 
-    $('.navbar').click(function() {
-        alert("I am an alert box!");
+    $('.js-nav-icon').click(function() {
         $('.js-navbar').slideToggle(200);
-
         if ($('.js-nav-icon i').hasClass('fa-bars')) {
             $('.js-nav-icon i').addClass('fa-times');
             $('.js-nav-icon i').removeClass('fa-bars');
